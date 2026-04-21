@@ -70,12 +70,24 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 mt-12">
-        <div className="max-w-4xl mx-auto px-4 py-6 text-center text-xs text-gray-400">
-          <p>&copy; 2025 eigyoubi - 営業日数計算ツール</p>
-          <p className="mt-1">
-            祝日データ: 2024年〜2027年対応
+      <footer className="border-t border-gray-200 mt-12 py-8 text-center">
+        <div className="max-w-3xl mx-auto px-4">
+          <p className="text-sm text-gray-500 mb-4">
+            eigyoubi — 営業日数計算ツール。登録不要・無料。
           </p>
+          <div className="mb-4">
+            <p className="text-xs text-gray-400 mb-2">Related Tools</p>
+            <div className="flex flex-wrap justify-center gap-2">
+              <a href="https://wareki-converter-mu.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Wareki Converter</a>
+              <a href="https://tax-calculator-lilac-three.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Tax Calculator</a>
+              <a href="https://zenkaku-hankaku.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Zenkaku Hankaku</a>
+              <a href="https://furigana-beta.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Furigana</a>
+              <a href="https://timezone-converter-rouge-two.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Timezone Converter</a>
+            </div>
+          </div>
+          <div className="flex justify-center gap-3 text-xs text-gray-400">
+            <a href="https://cc-tools.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">53+ Free Tools →</a>
+          </div>
         </div>
       </footer>
     </div>
